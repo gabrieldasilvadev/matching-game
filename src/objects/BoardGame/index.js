@@ -1,11 +1,16 @@
 import CardGame from "../../components/CardGame";
+import './style.css';
 
-function BoardGame(cardGameAmount) {
+function BoardGame(amountCard) {
 
     const $htmlCardGame = CardGame();
-    const $htmlBoardGame = $htmlCardGame.repeat(cardGameAmount)
+    const $htmlContent= $htmlCardGame.repeat(amountCard);
 
-    return $htmlBoardGame;
+    return `
+        <section class="board-game">
+            ${$htmlContent}
+        </section>
+        `;
 }
 
 export default BoardGame; //Quando for usar a função em outro arquivo, deve criar esse export
