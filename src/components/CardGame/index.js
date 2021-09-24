@@ -2,8 +2,8 @@ import './style.css';
 
 function CardGame() {
     return `
-        <article class="card-game">
-            <img src="images/interrogacao.png" alt="Interrogacao">
+        <article class="">
+            <img src="./images/interrogacao.png" class="card-game">
         </article>
     `;
 }
