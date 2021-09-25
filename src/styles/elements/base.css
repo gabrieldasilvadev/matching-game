@@ -1,5 +1,12 @@
+html,
+body{
+    font-size: 16px;
+    height: 100vh;
+}
+
 body{
     background-color: var(--color-bg);
     display: flex;
     justify-content: center;
+    font-family: 'Stick No Bills', sans-serif;
 }
