@@ -1,5 +1,6 @@
 import CardGame from "../../components/CardGame";
 import './style.css';
+import '../../styles/elements/base.css';
 
 function BoardGame(amountCard) {
 
@@ -12,5 +13,6 @@ function BoardGame(amountCard) {
         </section>
         `;
 }
+
 
 export default BoardGame; //Quando for usar a função em outro arquivo, deve criar esse export
