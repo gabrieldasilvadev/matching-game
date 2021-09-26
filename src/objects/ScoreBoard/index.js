@@ -1,8 +1,8 @@
 import PlayerName from "../../components/PlayerName";
-import './style.css';
+import "./style.css";
 
 function ScoreBoard() {
-    return /*html*/ `
+  return /*html*/ `
         <header class="score-board">
         ${PlayerName("Player1")}
         ${PlayerName("Player2")}

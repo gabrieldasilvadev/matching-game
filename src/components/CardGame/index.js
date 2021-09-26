@@ -1,9 +1,9 @@
-import './style.css';
+import "./style.css";
 
-function CardGame() {
-    return /*html*/`
+function CardGame(icon = "proa", alt = "Logo do PROA") {
+  return /*html*/ `
         <article class="img">
-            <img src="./images/interrogacao.svg" alt="Interrogacao"class="card-game">
+            <img src="./images/${icon}.png" alt="${alt} "class="card-game">
         </article>
     `;
 }
